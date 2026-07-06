@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title>Asha's Knit — Handcrafted Crochet Pieces</title>
   <meta name="description" content="Handcrafted crochet bags, keychains, beads & more — every piece made with love by hand."/>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css?v=9"/>
 </head>
 <body>
 
@@ -16,6 +16,7 @@
     <span>Asha's <em>Knit</em></span>
   </a>
   <div class="nav-center">
+    <a href="index.html" class="active">Home</a>
     <a href="bags.html">Bags</a>
     <a href="keychains.html">Keychains</a>
     <a href="beads.html">Beads</a>
@@ -39,13 +40,13 @@
     <h1>Woven with<br/><em>Soul,</em><br/>Made for You.</h1>
     <p>Every stitch holds an emotion. Every piece is one of a kind — designed and knotted by hand. No factories. No shortcuts.</p>
     <div class="hero-actions">
-      <a href="bags.html" class="btn-primary">Explore Collection</a>
+      <a href="#shop-by-category" class="btn-primary">Explore Collection</a>
       <a class="btn-secondary" href="custom.html">Custom Order</a>
     </div>
   </div>
   <div class="hero-right">
     <div class="hero-main-img">
-      <img src="images/Bags/831c97ac-e3ac-487b-af23-489958515eee.jpg" alt="Handmade crochet bag by Asha"/>
+      <img src="images/Bags/f52ce3c7-527b-452b-b382-dafc6c96c5e1.jpg" alt="Handmade crochet bag by Asha"/>
     </div>
   </div>
 </section>
@@ -67,14 +68,14 @@
 </div>
 
 <!-- CATEGORIES -->
-<section class="categories">
+<section class="categories" id="shop-by-category">
   <p class="section-label">The Collection</p>
   <h2 class="section-title">Shop by Category</h2>
 
   <div class="bento-grid">
 
-    <a class="bento-card bento-large" href="bags.html">
-      <img src="images/Bags/f52ce3c7-527b-452b-b382-dafc6c96c5e1.jpg" alt="Bags" style="object-position:center 40%"/>
+    <a class="bento-card bento-large" href="bags.html" data-bento="bags">
+      <img src="images/Bags/f52ce3c7-527b-452b-b382-dafc6c96c5e1.jpg" alt="Bags"/>
       <div class="bento-label">
         <span class="bento-name">Bags</span>
         <span class="bento-explore">Explore</span>
@@ -82,14 +83,14 @@
     </a>
 
     <div class="bento-col">
-      <a class="bento-card" href="minis.html">
-        <img src="images/Minis/243859e1-7ce1-4707-a7bd-d903bdfab605.jpg" alt="Mini Bags"/>
+      <a class="bento-card" href="minis.html" data-bento="minis">
+        <img src="images/Minis/281ac88c-f82a-4333-9ef5-5f47b17570cd.jpg" alt="Mini Bags"/>
         <div class="bento-label">
           <span class="bento-name">Mini Bags</span>
           <span class="bento-explore">Explore</span>
         </div>
       </a>
-      <a class="bento-card" href="keychains.html">
+      <a class="bento-card" href="keychains.html" data-bento="keychains">
         <img src="images/Keychain/4a3a2b40-6830-4c7a-bb96-46322406a916.jpg" alt="Keychains"/>
         <div class="bento-label">
           <span class="bento-name">Keychains</span>
@@ -98,15 +99,15 @@
       </a>
     </div>
 
-    <a class="bento-card bento-half" href="beads.html">
-      <img src="images/Beads/e48763e2-abc1-4611-90c5-62be261cc525.jpg" alt="Beads"/>
+    <a class="bento-card bento-half" href="beads.html" data-bento="beads">
+      <img src="images/Beads/a9d7805b-a358-4307-b023-7293bedc69fd.jpg" alt="Beads"/>
       <div class="bento-label">
         <span class="bento-name">Beads</span>
         <span class="bento-explore">Explore</span>
       </div>
     </a>
 
-    <a class="bento-card bento-half" href="flowers.html">
+    <a class="bento-card bento-half" href="flowers.html" data-bento="flowers">
       <img src="images/Flower/fede8deb-4d34-4329-86b0-78b4bf111c69.jpg" alt="Flowers"/>
       <div class="bento-label">
         <span class="bento-name">Flowers</span>
@@ -121,7 +122,7 @@
 <section class="about-dark">
   <div class="about-mosaic">
     <div class="m1"><img src="images/Bags/3a611cd5-9de5-4c1d-8d3f-68892b042ae3.jpg" alt=""/></div>
-    <div class="m2"><img src="images/Bags/ccbcec8a-f1a0-4700-b72e-ccb0fc9ec00f.jpg" alt=""/></div>
+    <div class="m2"><img src="images/Bags/30288b92-4de9-4983-9a7d-35bd56fe1f95.jpg" alt="Handmade crochet bag"/></div>
     <div class="m3"><img src="images/Bags/d967ce0f-0021-4a79-b9aa-0ff8ba04d088.jpg" alt=""/></div>
     <div class="m4"><img src="images/Bags/e2757bfd-8a9d-489b-8fbf-99f7b9d70979.jpg" alt=""/></div>
   </div>
@@ -208,22 +209,37 @@
     <div class="footer-brand">
       <a href="index.html" class="footer-logo">Asha's <em>Knit</em></a>
       <p>Handcrafted crochet pieces made with patience, love, and every emotion in between. No factories. No shortcuts. Just pure slow-made luxury.</p>
+      <div class="footer-contact">
+        <a href="mailto:ashakgoti@gmail.com">ashakgoti@gmail.com</a>
+        <a href="tel:+919879655156">+91 98796 55156</a>
+        <span>Surat, Gujarat &mdash; 395005</span>
+      </div>
     </div>
     <div class="footer-col">
       <h5>Collection</h5>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="bags.html">Bags</a></li>
+        <li><a href="keychains.html">Keychains</a></li>
+        <li><a href="beads.html">Beads</a></li>
+        <li><a href="flowers.html">Flowers</a></li>
+        <li><a href="minis.html">Mini Bags</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h5>Info</h5>
       <ul>
-        <li><a href="about.html">About Asha</a></li>
-        <li><a href="bags.html">All Products</a></li>
+        <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Asha</a></li>
+        <li><a href="collection.html">All Products</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Policies</h5>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+        <li><a href="refund-policy.html">Refund Policy</a></li>
+        <li><a href="shipping-policy.html">Shipping Policy</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -236,8 +252,11 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 Asha's Knit. All rights reserved.</span>
-    <span>Every stitch, by hand. ♥</span>
+    <div class="footer-legal">
+      <span>&copy; 2025&ndash;2026 Asha's Knit. All rights reserved.</span>
+      <p class="footer-ip">All product photographs on this website were taken by Asha and are owned by Asha's Knit. Every handmade product and product image is protected by copyright and may not be copied, reproduced, or used without written permission.</p>
+    </div>
+    <span class="footer-tagline">Every stitch, by hand. &#9829;</span>
   </div>
 </footer>
 
@@ -260,6 +279,6 @@
   <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
-<script src="script.js?v=2"></script>
+<script src="script.js?v=6"></script>
 </body>
 </html>
