@@ -119,7 +119,7 @@ function initGallery() {
   const imgs = items.map(el => el.dataset.src);
   const cat  = document.querySelector('.page-header h1')?.textContent ?? 'Collection';
   items.forEach((el, i) => el.addEventListener('click', e => {
-    if (e.target.closest('a, button')) return;
+    if (e.target.closest('a, button, form, .razorpay-btn-wrap, .razorpay-payment-button')) return;
     openLb(imgs, i, cat);
   }));
 }

@@ -338,6 +338,11 @@ body > nav.scrolled{background:rgba(247,243,238,.97);box-shadow:0 1px 0 var(--bo
   text-shadow:0 1px 4px rgba(0,0,0,.5);
 }
 .m-item-price span{font-size:.72rem;font-weight:400;opacity:.85}
+.m-item-actions{display:flex;flex-direction:column;align-items:flex-start;gap:.45rem;position:relative;z-index:2}
+.razorpay-btn-wrap{margin:0;pointer-events:auto}
+.razorpay-btn-wrap form{margin:0}
+.razorpay-btn-wrap .razorpay-payment-button,
+.razorpay-btn-wrap button{transform:scale(.92);transform-origin:left center}
 
 /* ── PROCESS ── */
 .process{padding:6rem 4%;background:var(--white)}
